@@ -3,9 +3,10 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sentence-gem',
+    podModulePrefix: 'sentence-gem/pods',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://sentence-gen.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
