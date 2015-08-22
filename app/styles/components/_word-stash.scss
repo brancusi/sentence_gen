@@ -1,4 +1,35 @@
 .wordStash {
-  border: 1px solid #0099FF;
-  margin:100px;
+  // flex-grow: 1;
+  // border: 1px solid #0099FF;
+  background-color: #087dba;
+  margin:20px;
+  height: 200px;
+  width: 15%;
+  padding: 10px;
+
+  h3 {
+    margin: 5px 10px;
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+@media (max-width: 800px) {
+  .wordStash {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wordStash {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .wordStash {
+    width: 20%;
+  }
 }
