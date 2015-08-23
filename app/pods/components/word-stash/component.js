@@ -12,6 +12,7 @@ export default Ember.Component.extend({
   actions: {
   	handleEnter: function(){
   		this.get('words').pushObject(this.get('newName'));
+  		this.set('newName', '');
   	}
   }
 });
