@@ -1,1 +1,9 @@
 <h3>{{formattedName}}</h3>
+
+{{input value=newName placeholder="Start typing..." enter="handleEnter"}}
+
+<ul>
+	{{#each words as |word|}}
+		<li>{{word}}</li>
+	{{/each}}
+</ul>
